@@ -1,7 +1,31 @@
 aid: mabel
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mabel.png
 name: Mabel
-description: Mabel is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Mabel is a healthcare technology company (Irvine, California; backed by 500
+  Global) that helps Medicare accountable care organizations (ACOs) enroll and
+  engage beneficiaries. Its platform is a market leader in voluntary alignment,
+  used by roughly one in three ACOs, and spans four core solutions: Voluntary
+  Alignment (campaign execution, response processing, analytics, and compliance
+  auditing for LEAD, ACO REACH, and GUIDE programs), Health Surveys (social
+  determinants of health screenings, NPS, and custom surveys with CMS-formatted
+  reporting), Beneficiary Notifications (compliance notices via email, mail, or
+  SMS with audit-ready tracking), and Letters From Your Doctor (provider-based
+  outreach for enrollment, surveys, and appointments). Mabel is HIPAA compliant
+  and SOC 2 Type II certified. No public developer API or SDK surface is
+  published at this time; this profile captures the company's identity,
+  compliance posture, and public web properties.
 url: https://raw.githubusercontent.com/api-evangelist/mabel/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +35,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Medicare
+- Accountable Care
+- Voluntary Alignment
+- Beneficiary Engagement
+- Compliance
+- HIPAA
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +52,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/mabel-domain-security.yml
 - type: Website
   url: https://getmabel.com
+- type: Blog
+  url: https://getmabel.com/blog
+- type: Support
+  url: https://getmabel.com/support
+- type: Login
+  url: https://app.getmabel.com
+- type: StatusPage
+  url: https://status.getmabel.com
+- type: TermsOfService
+  url: https://getmabel.com/legal/terms
+- type: PrivacyPolicy
+  url: https://getmabel.com/legal/privacy
+- type: TrustCenter
+  url: https://app.drata.com/trust/9cba8bcd-0c38-11ee-865f-029d78a187d9
+- type: Compliance
+  url: https://getmabel.com/soc2-compliance
+- type: LinkedIn
+  url: https://www.linkedin.com/company/getmabel
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

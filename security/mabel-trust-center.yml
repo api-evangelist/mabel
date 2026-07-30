@@ -1,0 +1,23 @@
+generated: '2026-07-20'
+method: searched
+source: https://getmabel.com/soc2-compliance
+url: https://app.drata.com/trust/9cba8bcd-0c38-11ee-865f-029d78a187d9
+certifications:
+- SOC 2 Type II
+- HIPAA
+compliance_pages:
+- https://getmabel.com/soc2-compliance
+- https://getmabel.com/legal/baa
+auditor: Sensiba
+notes: >-
+  SOC 2 Type II audit completed with a clean opinion and no noted exceptions
+  (Security in scope), issued by Sensiba. HIPAA compliance is documented and a
+  Business Associate Agreement (BAA) is published at /legal/baa. A Drata-hosted
+  trust center is linked from the site footer.
+evidence:
+- source: https://getmabel.com/soc2-compliance
+  keywords: [soc 2 type ii, clean audit opinion, security in scope]
+- source: https://getmabel.com/legal/baa
+  keywords: [hipaa, business associate agreement]
+- source: https://app.drata.com/trust/9cba8bcd-0c38-11ee-865f-029d78a187d9
+  keywords: [trust center, drata]
